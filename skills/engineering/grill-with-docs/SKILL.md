@@ -4,4 +4,4 @@ description: A relentless interview to sharpen a plan or design, which also crea
 disable-model-invocation: true
 ---
 
-Call the Skill tool twice, for "grilling" and "domain-modeling".
+Call the Skill tool twice, for "grilling" and "domain-modeling" (named "ai-skills:grilling" and "ai-skills:domain-modeling" when installed from the ai-skills plugin; use whichever names are in your skill list).

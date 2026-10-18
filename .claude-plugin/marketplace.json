@@ -1,0 +1,14 @@
+{
+  "name": "redlion",
+  "description": "redlion's agent skills.",
+  "owner": {
+    "name": "redlion"
+  },
+  "plugins": [
+    {
+      "name": "ai-skills",
+      "source": "./",
+      "description": "Skills for planning, stress-testing ideas, and handing work off between agent sessions."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "ai-skills",
+  "version": "0.1.0",
+  "description": "Skills for planning, stress-testing ideas, and handing work off between agent sessions.",
+  "author": {
+    "name": "redlion"
+  },
+  "repository": "https://github.com/redlion/ai-skills",
+  "skills": [
+    "./skills/engineering/domain-modeling",
+    "./skills/engineering/grill-with-docs",
+    "./skills/productivity/grill-me",
+    "./skills/productivity/grilling",
+    "./skills/productivity/handoff"
+  ]
+}
