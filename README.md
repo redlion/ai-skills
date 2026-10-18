@@ -15,6 +15,27 @@ Or in one step on Claude Code 2.1.275 or later:
 /plugin install ai-skills --marketplace redlion/ai-skills
 ```
 
+### From the private repo
+
+Claude Code clones the marketplace with `git`, so any computer with git access to this repo can install it.
+
+1. Check that git can reach the repo:
+
+   ```
+   git ls-remote git@github.com:redlion/ai-skills.git
+   ```
+
+   If you get a permission error, add an SSH key for this computer to your GitHub account, or run `gh auth login`.
+
+2. Add the marketplace over SSH and install the plugin:
+
+   ```
+   /plugin marketplace add git@github.com:redlion/ai-skills.git
+   /plugin install ai-skills@redlion
+   ```
+
+To pull updates, run `/plugin marketplace update redlion`. Background auto-updates of a private repo may need a GitHub token in your environment (`GITHUB_TOKEN` or `GH_TOKEN`).
+
 ## Skills
 
 ### User-invoked
